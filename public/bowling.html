@@ -1,0 +1,67 @@
+<head>
+
+<title>Bowling Scorecard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="game.js"></script>
+<script src="frame.js"></script>
+<script src="roll.js"></script>
+<script src="lastFrame.js"></script>
+<script src="interface.js">
+<script>
+</script>
+
+
+<h1 id="title">Bowling Scorecard</h1>
+
+<h1 id="currentframe"></h1>
+
+<form id="form" action="" method="POST">
+  Roll 1  :
+  <input type="text" name="roll1">
+  Roll 2  :
+  <input type="text" name="roll2">
+  <input type="submit" value="Submit">
+</form>
+
+<form id="bonusroll" action="" method="POST">
+  Bonus Roll  :
+  <input type="text" name="roll3">
+  <input type="submit" value="Submit">
+</form>
+
+<table id ="table" style="width:100%">
+  <tr>
+    <th>Frame 1</th>
+    <th>Frame 2</th>
+    <th>Frame 3</th>
+    <th>Frame 4</th>
+    <th>Frame 5</th>
+    <th>Frame 6</th>
+    <th>Frame 7</th>
+    <th>Frame 8</th>
+    <th>Frame 9</th>
+    <th>Frame 10</th>
+    <th>CURRENT TOTAL</th>
+  </tr>
+  <tr>
+    <td id="1"></td>
+    <td id="2"></td>
+    <td id="3"></td>
+    <td id="4"></td>
+    <td id="5"></td>
+    <td id="6"></td>
+    <td id="7"></td>
+    <td id="8"></td>
+    <td id="9"></td>
+    <td id="10"></td>
+    <td id="CURRENTTOTAL"></td>
+  </tr>
+</table>
